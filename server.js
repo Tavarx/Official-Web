@@ -6,7 +6,7 @@ const port = 3000;
 //app.use(express.static('public'))
 
 app.get("/", (req, res) => {
-    console.log("User joined page");
+    console.log("work?");
     res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
