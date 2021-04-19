@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="https://imgur.com/q5PFjic.png" />
+    <title>Gumernus Blog</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #0b1014;
+        height: 5000px;
+      }
+      #bg1 {
+        margin-top: 0px;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(
+          to right top,
+          #7289da,
+          #647dd7,
+          #5671d4,
+          #4865d0,
+          #3859cc
+        );
+        clip-path: polygon(
+          100% 0,
+          100% 80%,
+          100% 100%,
+          67% 73%,
+          39% 94%,
+          0 100%,
+          0 47%
+        );
+        position: absolute;
+        z-index: -1;
+      }
+
+      #bg2 {
+        margin-top: 1000px;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(
+          to right top,
+          #7289da,
+          #647dd7,
+          #5671d4,
+          #4865d0,
+          #3859cc
+        );
+        clip-path: polygon(
+          100% 0,
+          59% 35%,
+          100% 100%,
+          49% 91%,
+          41% 73%,
+          0 81%,
+          0 25%
+        );
+        position: absolute;
+        z-index: -1;
+      }
+      #bg3 {
+        margin-top: 2200px;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(
+          to right top,
+          #7289da,
+          #647dd7,
+          #5671d4,
+          #4865d0,
+          #3859cc
+        );
+        clip-path: polygon(
+          69% 0,
+          100% 0,
+          100% 30%,
+          65% 56%,
+          56% 91%,
+          46% 71%,
+          0 100%,
+          0 47%
+        );
+        position: absolute;
+        z-index: -1;
+      }
+      #bg4 {
+        margin-top: 3200px;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(
+          to right top,
+          #7289da,
+          #647dd7,
+          #5671d4,
+          #4865d0,
+          #3859cc
+        );
+        clip-path: polygon(100% 0, 100% 61%, 60% 92%, 0 80%, 30% 20%);
+        position: absolute;
+        z-index: -1;
+      }
+      .nadpis {
+        box-shadow: 1px 1px 15px black;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        background-color: #232a2ee0;
+        position: fixed;
+        font-family: "Jost", sans-serif;
+        width: 100%;
+        color: white;
+        text-align: center;
+      }
+      .mezera {
+        padding: 40px;
+      }
+
+      .post-mezera {
+        padding-bottom: 15px;
+      }
+
+      .post {
+        box-shadow: 2px 2px 10px black;
+        background-color: #232a2e;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        color: white;
+        width: 500px;
+        min-height: 10px;
+        border-radius: 15px;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 1.5;
+      }
+      img {
+        animation: mymove 5s infinite;
+        height: 50px;
+        width: 50px;
+        padding: 2px;
+        background-color: #0b1014;
+        border-radius: 100%;
+        box-shadow: 2px 2px 10px #0b1014;
+      }
+      a {
+        padding-right: 10px;
+        text-decoration: none;
+        color: #6f86b8;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .post {
+          box-shadow: 2px 2px 10px black;
+          background-color: #232a2e;
+          line-height: 1.4;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 13px;
+          color: white;
+          width: 250px;
+          min-height: 10px;
+          border-radius: 15px;
+          padding: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+      }
+    </style>
+    <!-- ======= čiko= https://imgur.com/KQx1h93.png ======= -->
+    <!-- ======= gumernus logo= https://imgur.com/rjBoB0v.png ======= -->
+    <div class="nadpis">GUMERNUS BLOG</div>
+    <div id="bg1"></div>
+    <div id="bg2"></div>
+    <div id="bg3"></div>
+    <div id="bg4"></div>
+    <div class="mezera"></div>
+    </svg>
+    <div class="post">
+      <img src="https://imgur.com/rjBoB0v.png" />
+      <div class="post-mezera"></div>
+      <hr />
+      <div class="post-mezera"></div>
+      Dnes 22.02 jsem se rozhodl kompletně předělat mého discord bota. Rozhodl
+      jsem se tak protože s tím co jsem do teď na botovi udělal by bylo v
+      budoucnu naprosto k... pokud si chtete udělat vlstního discord bota tak
+      určitě doporučuji se naučit javascript, node.js a nakonec samotný
+      discord.js. A však je potřeba si dávat pozor na nesmyslnost node.js kterou
+      já sám nechápu. Nový bot bude mít takzvaný command manager který udělá to
+      že commandy budou moci dělat více věcí a navíc budou lehčí na sestavění. A
+      také mi to umožňuje commandy logovat (ukládat).
+      <div class="post-mezera"></div>
+      <hr />
+      <div class="post-mezera"></div>
+      <a href="https://discord.com/invite/3Ghg9VQ">Discord</a>
+      <a href="https://github.com/gumernus/">Github</a>
+      <a href="https://www.instagram.com/gumernus.jpg/">Instagram</a>
+      <a href="https://twitter.com/michal_lmao/">Twitter</a>
+    </div>
+
+    <div class="post">
+      <img src="https://imgur.com/rjBoB0v.png" />
+      <div class="post-mezera"></div>
+      <hr />
+      <div class="post-mezera"></div>
+      Bohužel jsem přišel o svůj hlavní discord účet. Vlastně ani sám nevím proč
+      jsem dostal ban. Asi nemá cenu se snažit ho získat zpět, proto se o to ani
+      nebudu pokoušet. Naštěstí mám jeden alt účet vždy v záloze. Bany na
+      discordu jsem už hodněkrát řešil a dokonce jsem lidem pomáhal se banů
+      zbavit ale tenhle můj ban je opravdu záhada. Email atd.. nic mi nepřišlo.
+      Jediné co vím je že se asi nevyplatí mít na discordu zaškrtlé
+      "neprohledávat" v sekci zabezpečení. Proto bych všechny chtěl upozornit ať
+      si na discord opravdu dají to nejvyšší možné zabezpečení.
+      <div class="post-mezera"></div>
+      <hr />
+      <div class="post-mezera"></div>
+      <a href="https://discord.com/invite/3Ghg9VQ">Discord</a>
+      <a href="https://github.com/gumernus/">Github</a>
+      <a href="https://www.instagram.com/gumernus.jpg/">Instagram</a>
+      <a href="https://twitter.com/michal_lmao/">Twitter</a>
+    </div>
+  </body>
+</html>
