@@ -12,7 +12,7 @@ app.use(express.urlencoded());
 app.use(express.json());
 
 // Access the parse results as request.body
-app.post('/', (req, res){
+app.post('/', (req, res) => {
     console.log(req.body.user.join);
 });
 
