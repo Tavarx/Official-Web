@@ -1,12 +1,13 @@
 * {
-	font-family: 'Akaya Telivigala';
-	background-color: blue;
-}
-.obsah {
-	color: red;
+	font-family: 'Courier New', Courier, monospace;
 }
 
-.img {
-	width: 300px;
-	margin-left: 35px;
+body{
+    background-color: #3810a5;
 }
+
+h1{
+	text-align: center;
+    color: #f3f3e1;
+}
+
