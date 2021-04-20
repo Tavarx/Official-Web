@@ -1,9 +1,9 @@
-const express = require("express");
-const app = express();
+var express = require('express');
+var app = express();
 var path = require('path');
 const port = 3000;
 
-app.use(express.static("public"))
+app.use(express.static(__dirname + '/public')); //Serves resources from public folder
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + '/public/index.html'));
@@ -13,3 +13,8 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
     console.log(`Server runing on port`, port);
   });
+
+
+
+
+
