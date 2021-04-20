@@ -23,5 +23,15 @@
 
 </html>
 <script>
-console.log("hello")
+fetch('/', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+        user: {
+            join: "User joined page"
+        }
+    })
+});
 </script>
