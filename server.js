@@ -12,9 +12,8 @@ app.use(express.urlencoded());
 app.use(express.json());
 
 // Access the parse results as request.body
-app.post('/', function(request, response){
-    console.log(request.body.user.name);
-    console.log(request.body.user.email);
+app.post('/', (req, res){
+    console.log(req.body.user.join);
 });
 
 app.listen(port, () => {
