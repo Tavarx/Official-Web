@@ -1,0 +1,28 @@
+.leftSideBar i {
+  margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #cccccc;
+  display: block;
+}
+
+.leftSideBar #book-icon:hover {
+  color: #ffffff;
+  transform: rotate(5deg);
+}
+
+.leftSideBar #info-icon:hover {
+  color: #ffffff;
+  transform: rotate(5deg);
+}
+
+.leftSideBar #chat-icon:hover {
+  color: #ffffff;
+  transform: rotate(5deg);
+}
+
+.leftSideBar #premium-icon:hover {
+  color: #ffffff;
+  transform: rotate(5deg);
+}
