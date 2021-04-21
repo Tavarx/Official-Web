@@ -1,13 +1,66 @@
-* {
-	font-family: 'Courier New', Courier, monospace;
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.section-top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(pinkguy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-body{
-    background-color: #000516;
+.content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
 }
 
-h1{
-	text-align: center;
-    color: #f3f3e1;
+.content h1{
+    color: rgb(255, 121, 10);
+    font-size: 100px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    transition: 0.4;
 }
 
+.content h4{
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+.content2{
+    width: 400px;
+    height: 230px;
+    font-size: 25px;
+    display: inline-block;
+    border-radius: 10px;
+    position:relative;
+    top: 825px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    padding: -5px 15px;
+    box-sizing: border-box;
+    box-shadow: 2.5px 5px black;
+    margin: 10px 15px;
+    background-color:  rgb(153, 77, 15);
+    background-position: center;
+    text-align: center;
+    color: white;
+    transition: 0.2s;
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+}
+
+.content2:hover{
+    box-shadow: 10px 15px rgb(0, 0, 0);
+    transition: 0.2s;
+    top: 810px;
+}
