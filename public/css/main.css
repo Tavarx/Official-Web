@@ -8,7 +8,7 @@ textarea,
 button,
 select,
 a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   box-shadow: 1px 1px 10px #000000;
 }
 
-.leftSideBar a{
+.leftSideBar a {
   text-decoration: none;
 }
 
@@ -55,4 +55,3 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   box-shadow: 1px 1px 10px #000000;
 }
-
