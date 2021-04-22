@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3d069d1aa4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../assets/main.css" />
+    <link rel="stylesheet" href="../assets/favicons.css" />
+
+    <title>Tavarx</title>
+  </head>
+
+  <body>
+    <div class="mainBox">
+    <div class="title"><h1>Premium</h1></div>
+      <div class="main">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+          quis maxime excepturi, error quasi perferendis voluptates. Accusantium
+          magnam nostrum exercitationem repellat odit in, unde quo, nesciunt
+          illum vel minus commodi. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Accusamus sit voluptatum rerum, incidunt temporibus
+          ea rem distinctio quisquam porro qui amet ipsam, quasi minima numquam,
+          dolorem excepturi officia debitis atque. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Necessitatibus reiciendis ut velit sunt,
+          rerum tenetur, dicta aspernatur voluptates ratione excepturi corporis
+          quas molestias doloremque maiores dolorem. Eos rerum dicta delectus?
+        </p>
+      </div>
+      <div class="imgPadding">
+        
+      </div>
+
+    </div>
+    <div class="leftSideBar">
+      <a href="../index.html"> <i id="book-icon" class="fas fa-book"></i> </a>
+      <a href="./projects.html"> <i id="info-icon" class="fas fa-poll-h"></i> </a>
+      <a href="./chat.html"> <i id="chat-icon" class="fas fa-comment-alt"></i> </a>
+      <a href="./premium.html"> <i id="premium-icon" class="fas fa-star"></i> </a>
+      <a href="./contacts.html"> <i id="contacts-icon"class="fas fa-id-badge"></i> </a>
+    </div>
+  </body>
+</html>
+<script>
+  fetch("/", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      user: {
+        join: "User",
+      },
+    }),
+  });
+</script>
