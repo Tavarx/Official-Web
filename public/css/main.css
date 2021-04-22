@@ -21,7 +21,7 @@ body {
 
 .leftSideBar a{
   text-decoration: none;
-  outline: none;
+  outline: 0 none;
 }
 
 .mainBox {
