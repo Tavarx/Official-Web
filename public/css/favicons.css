@@ -5,24 +5,29 @@
   font-size: 25px;
   color: #cfcfcf;
   display: block;
+  text-shadow: 1px 1px 10px #00070e;
 }
 
 .leftSideBar #book-icon:hover {
   color: #ffffff;
-  transform: rotate(5deg);
+  transform: rotate(10deg);
 }
 
 .leftSideBar #info-icon:hover {
   color: #ffffff;
-  transform: rotate(5deg);
+  transform: rotate(10deg);
 }
 
 .leftSideBar #chat-icon:hover {
   color: #ffffff;
-  transform: rotate(5deg);
+  transform: rotate(10deg);
 }
 
 .leftSideBar #premium-icon:hover {
   color: #ffffff;
-  transform: rotate(5deg);
+  transform: rotate(10deg);
+}
+.leftSideBar #contacts-icon:hover{
+  color: #ffffff;
+  transform: rotate(10deg);
 }
