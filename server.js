@@ -5,7 +5,7 @@ const port = 3000;
 var joinCounter = 0;
 
 app.use(express.static(__dirname + '/public'));
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }))
 app.use(express.json());
 
 app.post('/', (req, res) => {
